@@ -2,27 +2,58 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Synth App</title>
   </head>
   <body>
-    <div id="app"> Synthe </div>
     <button id="button"> Start Synthe </button>
-    <ul class="set">
-      <li class="white a"></li>
-      <li class="black q"></li>
-      <li class="white z"></li>
-      <li class="black s"></li>
-      <li class="white e"></li>
-      <li class="black d"></li>
-      <li class="white r"></li>
-      <li class="white t"></li>
+    <div class="container">
+      <ul class="set">
+        <li class="white a"></li>
+        <li class="black q"></li>
+        <li class="white z"></li>
+        <li class="black s"></li>
+        <li class="white e"></li>
+        <li class="black d"></li>
+        <li class="white r"></li>
+        <li class="white t"></li>
         <li class="black f"></li>
         <li class="white y"></li>
         <li class="black g"></li>
         <li class="white u"></li>
-    </ul>
-    <script type="module" src="/main.js"></script>
+      </ul>
+  
+      
+      <div class="book">
+        <div>
+          
+          <div class="whiteKey">
+            <h3> White key </h3>
+            <p>a = do</p> 
+            <p>z = ré</p> 
+            <p>e = mi</p>  
+            <p>r = fa</p>  
+            <p>t = sol</p>  
+            <p>y = la</p>  
+            <p>u = si</p> 
+          </div> 
+        </div>
+        <div>
+          <div class="blackKey">
+            <h3> Black key </h3>
+            <p>q = do#</p> 
+            <p>s = ré#</p> 
+            <p>d = fa#</p>  
+            <p>f = sol#</p>  
+            <p>g = la#</p>  
+          </div> 
+        </div>
+      </div>
+    </div>
+    
+
+      
+
+    <script type="module" src="/main.js"> </script>
   </body>
 </html>
